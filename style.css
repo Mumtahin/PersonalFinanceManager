@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-image: url('manhattan.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:white;
+}
+h1{
+    font-family: 'Questrial', sans-serif;
+}
+.container .jumbotron {
+    background: rgba(220,220,220, 0.93) !important
+}
+.panel-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.panel-default {
+    background: none;
+    font-family: 'Questrial', sans-serif;
+}
+.panel-default .panel-heading {
+    background: rgba(0, 0, 0, 0.75) !important;
+    color:white;
+}
+.panel-default .panel-body {
+    background: rgba(220,220,220, 0.93) !important;
+}
+.panel > .buttonClass {
+    background: rgba(0,0,0,0.01) !important;
+}
+#results {
+    display: inline-block;
+    display: none;
+}
+.resultsString{
+    
+}
